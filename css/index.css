@@ -1,0 +1,48 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: black;
+	overflow: hidden;
+}
+button{
+	width: 72px;
+	height: 72px;
+	padding: 0px;
+	margin: 0px;
+	background: none;
+	border: 0px;
+	outline:none;
+	overflow: hidden;
+	background-image: url(../images/1.png);
+	background-position: top
+}
+.heart{
+	position: relative;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	width: 200px;
+	height: 320px;
+	margin: auto;
+	-moz-transform-style: preserve-3d; /*3d空间*/
+	-webkit-transform-style: preserve-3d; /*3d空间*/
+	-webkit-animation：rot 10s linear infinite;
+}
+@keyframes rot{
+	0%{-webkit-transform:rotateY(0deg) rotateX(0deg) }
+	100%{-webkit-transform:rotateY(360deg) rotateX(360deg) }
+}
+.side{
+	position: absolute;
+	width: 200px;
+	height: 320px;
+	border: solid red;
+	border-width: 1px 1px 0 0; 
+	border-radius: 50% 50% 0/40% 50% 0;
+}
+
+
+
