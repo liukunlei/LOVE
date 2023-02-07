@@ -1,8 +1,8 @@
 // 表白标题 开始
 var tit = document.getElementsByTagName("title")[0];
 function tips(){
-	tit.innerHTML = "婷婷❤小公举";
-	setTimeout("tit.innerHTML='我❤你(✿◡‿◡)'",500);
+	tit.innerHTML = "曼玲❤小公举";
+	setTimeout("tit.innerHTML='烦人精永远❤爱你(✿◡‿◡)'",500);
 }
 setInterval("tips()",1500);
 // 表白标题 结束
